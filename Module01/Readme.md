@@ -4,9 +4,9 @@
 ![Fail download](https://github.com/gyllub/DE-101/blob/main/Module01/img/1.png "Figure 1")
 - Для **LookUp1** результирующие данные вывел в транспонированном виде, т.к. ИМХО удобочитаемее.
 
-			<p align="center">
-			    <img src="https://github.com/gyllub/DE-101/blob/main/Module01/img/2.png">
-			</p>
+<p align="center">
+    <img src="https://github.com/gyllub/DE-101/blob/main/Module01/img/2.png">
+</p>
 
 ![Fail download](https://github.com/gyllub/DE-101/blob/main/Module01/img/2.png "Figure 2")
 - **LookUp2** - вывод средней цены зазаказ по введенному Product ID
