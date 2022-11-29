@@ -3,8 +3,11 @@
 - В **Orders** сразу отформатировал диапазон ячеек как таблицу, для более удобного синтаксиса встроке формул.
 ![Fail download](https://github.com/gyllub/DE-101/blob/main/Module01/img/1.png "Figure 1")
 - Для **LookUp1** результирующие данные вывел в транспонированном виде, т.к. ИМХО удобочитаемее.
+![Fail download](https://github.com/gyllub/DE-101/blob/main/Module01/img/2.png "Figure 2")
 - **LookUp2** - вывод средней цены зазаказ по введенному Product ID
+![Fail download](https://github.com/gyllub/DE-101/blob/main/Module01/img/3.png "Figure 3")
 - Для создания **DashBoard** пользовался [**видео**](https://www.youtube.com/watch?v=j2YIAEmRpQs&ab_channel=%D0%91%D0%B8%D0%BB%D1%8F%D0%BB%D0%A5%D0%B0%D1%81%D0%B5%D0%BD%D0%BE%D0%B2%E2%80%93Excel%2CVBA%26More), отдельный рахмет создателю.
+![Fail download](https://github.com/gyllub/DE-101/blob/main/Module01/img/4.png "Figure 4")
 
 # Архитектура аналитического решения
 
