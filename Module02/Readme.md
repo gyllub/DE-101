@@ -1,4 +1,4 @@
-#Примеры запросов к БД super_sales
+# Примеры запросов к БД super_sales
 
 
 __Sales count, Total sales, Total profit__
