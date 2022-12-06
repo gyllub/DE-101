@@ -4,10 +4,10 @@
 __Sales count, Total sales, Total profit__
 
 select count(sales) sales_count , sum(sales) total_sale , sum(profit) total_profit  
-from orders o 
+	from orders o 
 
 <p align="center">	
-    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pic/1.png">
+    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pics/1.png">
 </p>
 
 __Наиболее профитные покупатели__
@@ -22,7 +22,7 @@ order by profit desc
 limit 5
 
 <p align="center">
-    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pic/2.png">
+    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pics/2.png">
 </p>
 
 __Наибольшие суммы возвратов__
@@ -35,7 +35,7 @@ order by 2 desc
 limit 7  
 
 <p align="center">
-    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pic/3.png">
+    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pics/3.png">
 </p>
 
 __Месяцы с максимальными суммами возвратов__
@@ -47,7 +47,7 @@ order by returned_sale desc
 limit 7  
 
 <p align="center">
-    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pic/4.png">
+    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pics/4.png">
 </p>
 
 __Максимальные продажи по сегменту и месяцу__
@@ -59,7 +59,7 @@ order by 3 desc
 limit 5  
 
 <p align="center">
-    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pic/5.png">
+    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pics/5.png">
 </p>
 
 
