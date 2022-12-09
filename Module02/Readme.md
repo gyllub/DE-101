@@ -62,7 +62,19 @@ limit 5
     <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pics/5.png">
 </p>
 
+# Организация новой БД
+Создаем схему БД "Звезда", в которой таблица "orders" является центральной, остальные таблицы - таблицы размерностей
 
+<p align="center">
+    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pics/6.png">
+</p>
+
+Также таблицу "orders" определяем в схему stg (staging), хранящую таблицы  спромежуточными итогами. А таблицы размерностей - в схему dw.  
+Таким образом получаем следующаю структуру БД.
+
+<p align="center">
+    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pics/7.png">
+</p>
 
 
 
