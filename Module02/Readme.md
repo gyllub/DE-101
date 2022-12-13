@@ -69,12 +69,26 @@ limit 5
     <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pics/6.png">
 </p>
 
-Также таблицу "orders" определяем в схему stg (staging), хранящую таблицы  спромежуточными итогами. А таблицы размерностей - в схему dw.  
+Также таблицу "orders" определяем в схему stg (staging), хранящую таблицы с прмежуточныи (сырыми) данными, поступающими из источников. Далее данные разбиваются в таблицы размерностей, хранимые в схеме dw (data warehouse).  
 Таким образом получаем следующаю структуру БД.
 
 <p align="center">
     <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pics/7.png">
 </p>
 
+# БД в облаке Yandex Data Lens
+
+Предварительно добавил в таблицу orders поле geo_code, в котором содержаться гео-координаты отдельных штатов. 
+После загрузки данных в датасете были дополнительно созданы поля RANK([sales]) и YEAR([ship_date]) для выделения топ-10 продуктов и выделения года из даты отгрузки соответсвенно.
+Таким образом получился дашборд. сложенный из отдельных чартов по примеру [Excel-файла](https://github.com/gyllub/DE-101/Module01/Excel_analytics.xlsx) модуля 1.
+<p align="center">
+    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pics/DLens1.png">
+</p>
+<p align="center">
+    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pics/DLens2.png">
+</p>
+<p align="center">
+    <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pics/DLens3.png">
+</p>
 
 
