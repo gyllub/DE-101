@@ -80,7 +80,7 @@ limit 5
 
 Предварительно добавил в таблицу orders поле geo_code, в котором содержаться гео-координаты отдельных штатов. 
 После загрузки данных в датасете были дополнительно созданы поля RANK([sales]) и YEAR([ship_date]) для выделения топ-10 продуктов и выделения года из даты отгрузки соответсвенно.
-Таким образом получился дашборд. сложенный из отдельных чартов по примеру [Excel-файла](https://github.com/gyllub/DE-101/Module01/Excel_analytics.xlsx) модуля 1.
+Таким образом получился дашборд. сложенный из отдельных чартов по примеру [Excel-файла](https://github.com/gyllub/DE-101/blob/main/Module01/Excel_analytics.xlsx) модуля 1.
 <p align="center">
     <img src="https://github.com/gyllub/DE-101/blob/main/Module02/pics/DLens1.png">
 </p>
