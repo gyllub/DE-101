@@ -9,3 +9,4 @@ There are my homeworks devided into 12 modules.
 # Homeworks
 [Module 01](https://github.com/gyllub/DE-101/tree/main/Module01)  
 [Module 02](https://github.com/gyllub/DE-101/tree/main/Module02)
+[Module 03](https://github.com/gyllub/DE-101/tree/main/Module03)
